@@ -227,24 +227,24 @@ input[type="radio"].visually-hidden {
 
 
 .icon-1::before {
-background-image: url(/img/icons/icon-1.png);
+background-image: url(./img/icons/icon-1.png);
 background-color: rgb( 255, 78, 80 );
 
 }
 
 .icon-2::before {
-    background-image: url(/img/icons/icon-2.png);
+    background-image: url(./img/icons/icon-2.png);
     background-color: rgb( 255, 165, 7 );
 }
 
 .icon-3::before {
-    background-image: url(/img/icons/icon-3.png);
+    background-image: url(./img/icons/icon-3.png);
     background-color: rgb( 28, 215, 173 );
 }
 
   
 .icon-4::before {
-    background-image: url(/img/icons/icon-4.png);
+    background-image: url(./img/icons/icon-4.png);
     background-color: rgb( 78, 115, 219 );
 }
 
