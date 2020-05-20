@@ -80,9 +80,7 @@ input[type="radio"].visually-hidden {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -101,36 +99,35 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
 }
 
-.wrapper-button {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 116px;
+.navigation {
+  margin-bottom: 28px;
 }
 
-.log-in {
+.navigation-list {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   color: rgb(255, 255, 255);
-  border: none;
-  outline: none;
   background-color: transparent;
+  outline: none;
+  width: 90px;
+  height: 36px;
+}
+
+.log-in {
+  border: none;
   margin-right: 20px;
 }
 
 .sign-up {
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 14px;
-  color: rgb(255, 255, 255);
-  background-color: transparent;
-  outline: none;
-  display: block;
-  content: "";
   border: 2px solid rgb(255, 255, 255);
   border-radius: 20px;
-  width: 90px;
-  height: 36px;
+  cursor: pointer;
 }
 
 .sign-up:hover,
@@ -149,7 +146,6 @@ border: rgb(255, 78, 80);
   font-weight: 700;
   display: flex;
   justify-content: center;
-  margin-bottom: 28px;
 }
 
 .title {
@@ -184,6 +180,7 @@ border: rgb(255, 78, 80);
   height: 40px;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 
@@ -282,16 +279,14 @@ background-color: rgb( 255, 78, 80 );
    
     display: block;
     margin: 0 auto;
-    font-family: var(--main-font);
-    font-size: 14px;
     color: rgb( 255, 78, 80 );
-    font-weight: 700;
     text-align: center;
     border: 2px solid rgb( 255, 78, 80 );
     border-radius: 20px;
     width: 284px;
     height: 44px;
     background-color: rgb( 255, 255, 255 );
+    cursor: pointer;
 }
 
 
@@ -312,6 +307,9 @@ background-color: rgb( 255, 78, 80 );
     margin-bottom: 28px;
   }
 
+  .navigation-list{
+    margin-bottom: 116px;
+  }
 
 }
 
@@ -323,14 +321,8 @@ background-color: rgb( 255, 78, 80 );
     padding: 48px 0 234px 0;
     background-image: url(../img/bgt.png);
   }
-  .logo {
-    margin-bottom: 0;
-  }
-  .wrapper-button {
-    margin-bottom: 0;
-  } 
-  
-  .wrapper-logo-button {
+ 
+  .navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -414,7 +406,5 @@ background-color: rgb( 255, 78, 80 );
 .header {
   background-image: url(../img/bg3.png);
 }
-
-
 
 }
